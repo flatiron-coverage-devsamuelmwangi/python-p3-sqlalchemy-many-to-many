@@ -3,6 +3,7 @@ from sqlalchemy.orm import sessionmaker
 
 from conftest import SQLITE_URL
 from models import User, Game, Review
+from conftest import SQLITE_URL
 
 class TestGame:
     '''Game in models.py'''
